@@ -1,0 +1,20 @@
+{
+    "_checkout": null,
+    "_copy_without_render": [
+        "frontend/scss",
+        "frontend/js",
+        "frontend/.stylelintrc.json",
+        "frontend/.stylelintignore",
+        "project/sources"
+    ],
+    "_optimus_bootstrap_version": "0.4.1",
+    "_output_dir": "/home/emencia/Projects/Apps/Cookies-dev/optimus_bootstrap/dist",
+    "_repo_dir": ".",
+    "_template": ".",
+    "app_name": "sveetch_github_io",
+    "init_git_repository": true,
+    "project_name": "sveetch-github-io",
+    "project_short_description": "My homepage on Github to promote",
+    "project_title": "Sveetch Github home",
+    "version": "0.1.0"
+}

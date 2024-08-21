@@ -1,0 +1,21 @@
+{% extends "skeleton.html" %}
+
+{% block header_title %}{{ super() }} - {{ page_title }}{% endblock header_title %}
+
+{% block body_container %}
+{% include "partials/color_mode_toggler.html" %}
+
+<div id="page-body" class="d-flex w-100 h-100 p-3 mx-auto flex-column justify-content-center">
+    <div class="text-center">
+        <h1>{{ SITE.name }}</h1>
+
+        <h2>{{ gettext(page_title) }}</h2>
+
+        <p>{% trans %}Hello World!{% endtrans %}</p>
+
+        {% if page_lang.code not in ['fr'] %}
+            <p>There is also a <a href="{{ page_relative_position }}fr/index.html">French version</a>.</p>
+            <p>Or this <a href="{{ page_relative_position }}endpoint.json" target="_blank">JSON endpoint</a>.</p>
+        {% endif %}
+    </div>
+</div>{% endblock body_container %}

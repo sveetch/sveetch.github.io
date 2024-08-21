@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ page_lang.language_name }}"{% block html_attrs %}{% endblock html_attrs %}>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="follow, all">
+
+    <title>{% block header_title %}{{ SITE.name }}{% endblock header_title %}</title>
+
+    {% block metas %}
+        {% block metas_robot %}
+            <meta name="robots" content="follow, all">
+        {% endblock metas_robot %}
+        {% block metas_generic %}{% endblock metas_generic %}
+        {% block metas_og %}{% endblock metas_og %}
+    {% endblock metas %}
+
+    {% block header_manifest %}
+        {% include "partials/site_manifest.html" %}
+    {% endblock header_manifest %}
+    {% block header_marketing %}{% endblock header_marketing %}
+    {% block header_javascript %}{% endblock header_javascript %}
+    {% block header_resource %}{% assets "layout_css" %}
+        <link rel="stylesheet" href="{{ page_relative_position }}{{ ASSET_URL }}">
+    {% endassets %}{% endblock header_resource %}
+    {% block header_resource_extra %}{% endblock header_resource_extra %}
+</head>
+
+<body{% block body_attrs %}{% endblock body_attrs %}>
+    {% block body_container %}{% endblock body_container %}
+
+    {% block body_javascript %}{% assets "main_js" %}
+        <script src="{{ page_relative_position }}{{ ASSET_URL }}"></script>
+    {% endassets %}{% endblock body_javascript %}
+    {% block body_marketing %}{% endblock body_marketing %}
+    {% block body_javascript_extra %}{% endblock body_javascript_extra %}
+</body>
+</html>

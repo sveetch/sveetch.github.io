@@ -1,0 +1,24 @@
+# Translations template for View data project
+# Created by Optimus
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: View data VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-08-20 11:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: sources/sources/templates/generic.html:13
+msgid "Hello World!"
+msgstr ""
+
+#: sources/views/generic.py:10
+msgid "Generic basic page"
+msgstr ""
+
