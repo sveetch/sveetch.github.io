@@ -1,0 +1,33 @@
+{% extends "skeleton.html" %}
+
+{% block header_title %}{{ page_title }}{% endblock header_title %}
+{% block body_attrs %} class="flex-column-layout"{% endblock body_attrs %}
+
+{% block body_container %}
+    {% block body_header %}
+    <nav class="navbar header-navbar">
+        <a class="navbar-brand" href="{{ page_relative_position }}">
+            <img src="{{ STATIC_URL }}images/logo.full.svg" alt="Logo"
+                    height="70" class="d-inline-block align-text-top">
+            <span class="visually-hidden">{{ page_title }}</span>
+        </a>
+
+        {% include "partials/color_mode_toggler.html" %}
+    </nav>
+    {% endblock body_header %}
+
+    {% block body_content %}{% endblock body_content %}
+
+    {% block body_footer %}
+    <div id="page-footer" class="container footer-content">
+        <div class="container text-center">
+            <p><small>
+                Built with <a href="https://optimus.readthedocs.io/" target="_blank">Optimus</a>&nbsp;v{{ optimus_version }}.
+            </small></p>
+            <p><small>
+                Application icons by <a href="https://www.svgrepo.com" target="_blank">SVG Repo</a>.
+            </small></p>
+        </div>
+    </div>
+    {% endblock body_footer %}
+{% endblock body_container %}

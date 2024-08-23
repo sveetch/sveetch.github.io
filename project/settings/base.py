@@ -9,7 +9,7 @@ DEBUG = True
 
 # Common site name and domain to use available in templates
 SITE_NAME = "Sveetch Github home"
-SITE_DOMAIN = "localhost"
+SITE_DOMAIN = "sveetch.github.io"
 
 # Repository root path is computed from current settings file
 REPOSITORY_DIR = os.path.normpath(

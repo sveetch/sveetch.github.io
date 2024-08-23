@@ -3,3 +3,16 @@
 ///
 
 // .header-navbar {}
+
+.header-navbar {
+    @include bb-flex(0, 0, auto, $max: false);
+    padding: map-get($spacers, 4) map-get($spacers, 1);
+    justify-content: center;
+    background: none;
+
+    .navbar-brand {
+        display: flex;
+        align-items: center;
+        margin-right: 0;
+    }
+}

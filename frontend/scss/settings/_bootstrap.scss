@@ -4,3 +4,6 @@
 
 // Include functions first
 @import "bootstrap/scss/functions";
+
+// Enabled callout object variants
+$callout-variants: info, warning, danger !default;

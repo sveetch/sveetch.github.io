@@ -9,10 +9,7 @@
 Sveetch Github home
 ===================
 
-My homepage on Github to promote
-
-This is an `Optimus`_ project to build a static page with
-`Bootstrap frontend toolkit`_.
+`My homepage on Github <https://sveetch.github.io>`_ to promote some things.
 
 
 Prerequisites
@@ -57,3 +54,10 @@ See the Makefile help for details about available helpful tasks: ::
     make help
 
 And see the `Optimus`_ documentation for more details on how to work on this project.
+
+Deployment
+**********
+
+Deployment is done with `Github pages <https://docs.github.com/en/pages>`_ system. It
+is published with a custom GitHub Actions workflow using a ``github-pages`` branch
+where the static files are pushed, after local build from Optimus in production mode.

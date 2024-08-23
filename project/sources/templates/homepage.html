@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+
+{% block body_content %}
+<div id="page-body" class="page-content">
+    <div class="container-md mb-5">
+        <h2 class="callout callout-info">{% trans %}My Cookiecutter templates{% endtrans %}</h2>
+
+        <div class="application-list">
+            {% for application in cookiecutters %}
+                <div class="application-item shadow">
+
+                    <div class="head">
+                        <img src="{{ STATIC_URL }}{{ application.logo }}" alt="{{ application.name }}">
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title">{{ application.name }}</h3>
+                        <p class="description">{{ application.description }}</p>
+                    </div>
+
+                    <div class="foot">
+                        <div class="btn-group btn-group-sm" role="group" aria-label="Application links">
+                            {% if application.pypi_url %}
+                                <a href="{{ application.pypi_url }}"
+                                    class="pypi-url btn btn-primary"
+                                    target="_blank">Package</a>
+                            {% endif %}
+                            {% if application.repository_url %}
+                                <a href="{{ application.repository_url }}"
+                                    class="repository-url btn btn-primary"
+                                    target="_blank">Repository</a>
+                            {% endif %}
+                            {% if application.documentation_url %}
+                                <a href="{{ application.documentation_url }}"
+                                    class="documentation-url btn btn-primary"
+                                    target="_blank">Documentation</a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="container-md mb-5">
+        <h2 class="callout callout-info">{% trans %}My applications{% endtrans %}</h2>
+
+        <div class="application-list">
+            {% for application in applications %}
+                <div class="application-item shadow">
+
+                    <div class="head">
+                        <img src="{{ STATIC_URL }}{{ application.logo }}" alt="{{ application.name }}">
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title">{{ application.name }}</h3>
+                        <p class="description">{{ application.description }}</p>
+                    </div>
+
+                    <div class="foot">
+                        <div class="btn-group btn-group-sm" role="group" aria-label="Application links">
+                            {% if application.pypi_url %}
+                                <a href="{{ application.pypi_url }}"
+                                    class="pypi-url btn btn-primary"
+                                    target="_blank">Package</a>
+                            {% endif %}
+                            {% if application.repository_url %}
+                                <a href="{{ application.repository_url }}"
+                                    class="repository-url btn btn-primary"
+                                    target="_blank">Repository</a>
+                            {% endif %}
+                            {% if application.documentation_url %}
+                                <a href="{{ application.documentation_url }}"
+                                    class="documentation-url btn btn-primary"
+                                    target="_blank">Documentation</a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock body_content %}

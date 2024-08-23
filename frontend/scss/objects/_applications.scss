@@ -1,0 +1,83 @@
+.application-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .application-item {
+        @include bb-flex(1, 0, calc(100% - 2rem));
+        margin: 1rem;
+        padding: map-get($spacers, 3);
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        border-radius: 0.5rem;
+        background-color: var(--bs-light-bg-subtle);
+
+        @include media-breakpoint-up(md) {
+            @include bb-flex(1, 0, calc(50% - 2rem));
+        }
+
+        @include media-breakpoint-up(xxl) {
+            @include bb-flex(1, 0, calc(33.3333% - 2rem));
+        }
+
+
+        .head {
+            @include bb-flex(1, 0, 5rem);
+            padding-right: map-get($spacers, 3);
+
+            img {
+                display: block;
+                width: 100%;
+                max-width: 5rem;
+                margin: 0 auto;
+            }
+        }
+
+        .content {
+            @include bb-flex(1, 0, calc(100% - 5rem));
+            margin-bottom: map-get($spacers, 3);
+            display: flex;
+            align-items: center;
+            align-content: center;
+            flex-wrap: wrap;
+
+            *:last-child {
+                margin-bottom: 0;
+            }
+
+            .title {
+                @include bb-flex(0, 0, 100%);
+                font-size: $h6-font-size;
+                font-weight: $font-weight-bold;
+            }
+
+            .description {
+                @include bb-flex(0, 0, 100%);
+                font-size: 0.9rem;
+            }
+        }
+
+        .foot {
+            @include bb-flex(1, 0, 100%);
+            display: flex;
+            padding-left: 5rem;
+            justify-content: flex-start;
+
+            @include media-breakpoint-up(md) {
+                padding-left: 0;
+                justify-content: center;
+            }
+            @include media-breakpoint-up(lg) {
+                padding-left: 5rem;
+                justify-content: flex-start;
+            }
+
+            .btn-sm,
+            .btn-group-sm > .btn {
+                font-size: 0.7rem;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

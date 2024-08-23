@@ -1,0 +1,70 @@
+{
+    "cookiecutters": [
+        {
+            "name": "Bireli",
+            "logo": "images/registry/bireli.svg",
+            "pypi_url": null,
+            "repository_url": "https://github.com/sveetch/cookiecutter-bireli",
+            "documentation_url": "https://cookiecutter-bireli.readthedocs.io/",
+            "description": "Bireli is a Django project template with Cookiecutter to produce a ready to start project."
+        },
+        {
+            "name": "Cookiecutter for Django application",
+            "logo": "images/registry/cookiecutter-django.svg",
+            "pypi_url": null,
+            "repository_url": "https://github.com/sveetch/cookiecutter-sveetch-djangoapp",
+            "documentation_url": "https://cookiecutter-sveetch-djangoapp.readthedocs.io/",
+            "description": "A Cookiecutter template to produce a Django application package."
+        }
+    ],
+    "applications": [
+        {
+            "name": "Project composer",
+            "logo": "images/registry/composer.svg",
+            "pypi_url": "https://pypi.python.org/pypi/project-composer",
+            "repository_url": "https://github.com/sveetch/project-composer",
+            "documentation_url": "https://project-composer.readthedocs.io/",
+            "description": "A convenient system to structure and compose applications from a modular project."
+        },
+        {
+            "name": "Diskette",
+            "logo": "images/registry/diskette.svg",
+            "pypi_url": "https://pypi.python.org/pypi/diskette",
+            "repository_url": "https://github.com/emencia/diskette",
+            "documentation_url": "https://diskette.readthedocs.io/",
+            "description": "Export and import Django application datas and medias."
+        },
+        {
+            "name": "Django Blog Lotus",
+            "logo": "images/registry/lotus.svg",
+            "pypi_url": "https://pypi.python.org/pypi/django-blog-lotus",
+            "repository_url": "https://github.com/emencia/django-blog-lotus",
+            "documentation_url": "https://django-blog-lotus.readthedocs.io/",
+            "description": "A Django weblog application with builtin multilingual content and some other features."
+        },
+        {
+            "name": "Emencia DjangoCMS blocks",
+            "logo": "images/registry/blocks.svg",
+            "pypi_url": "https://pypi.python.org/pypi/cmsplugin-blocks",
+            "repository_url": "https://github.com/emencia/cmsplugin-blocks",
+            "documentation_url": "https://cmspluginblocks.readthedocs.io/",
+            "description": "A set of DjangoCMS plugins for structured contents in CMS pages."
+        },
+        {
+            "name": "PyCssStyleguide",
+            "logo": "images/registry/styleguide.svg",
+            "pypi_url": "http://pypi.python.org/pypi/py-css-styleguide",
+            "repository_url": "https://github.com/sveetch/py-css-styleguide",
+            "documentation_url": "https://optimus.readthedocs.io/",
+            "description": "Optimus is a static site builder, it produces HTML from templates with assets management and supports i18n for translations."
+        },
+        {
+            "name": "Optimus",
+            "logo": "images/registry/optimus.svg",
+            "pypi_url": "https://pypi.python.org/pypi/Optimus",
+            "repository_url": "https://github.com/sveetch/Optimus",
+            "documentation_url": "https://pycssstyleguide.readthedocs.io/",
+            "description": "This is a Python library to build a design styleguide from a CSS manifest file."
+        }
+    ]
+}
