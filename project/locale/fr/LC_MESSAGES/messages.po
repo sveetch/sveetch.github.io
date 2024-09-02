@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-08-20 11:36+0000\n"
+"POT-Creation-Date: 2024-09-01 20:09+0000\n"
 "PO-Revision-Date: 2013-02-23 13:09+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -19,11 +19,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: sources/sources/templates/generic.html:13
+#: sources/sources/templates/generic.html:10
 msgid "Hello World!"
 msgstr "Bonjour le monde !"
 
-#: sources/views/generic.py:10
+#: sources/sources/templates/homepage.html:6
+msgid "My Cookiecutter templates"
+msgstr ""
+
+#: sources/sources/templates/homepage.html:46
+msgid "My applications"
+msgstr ""
+
+#: sources/views/generic.py:11
 msgid "Generic basic page"
 msgstr "Page générique de base"
 

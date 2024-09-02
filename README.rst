@@ -11,6 +11,8 @@ Sveetch Github home
 
 `My homepage on Github <https://sveetch.github.io>`_ to promote some things.
 
+Developed with `Optimus`_ and `Bootstrap frontend toolkit`_.
+
 
 Prerequisites
 *************
@@ -58,6 +60,17 @@ And see the `Optimus`_ documentation for more details on how to work on this pro
 Deployment
 **********
 
-Deployment is done with `Github pages <https://docs.github.com/en/pages>`_ system. It
-is published with a custom GitHub Actions workflow using a ``github-pages`` branch
-where the static files are pushed, after local build from Optimus in production mode.
+Deployment is done with `Github pages <https://docs.github.com/en/pages>`_ system.
+
+Workflow
+--------
+
+* We are developing into master branch;
+* Once a release is finalized, with bump version from ``cookiebaked.json``;
+* Add a release into changelog file;
+* Push to master;
+* Switch into branch ``github-pages``;
+* Rebase the branch with master;
+* Build into production mode;
+* Push ``github-pages``;
+* The GitHub Actions workflow will this branch update and will deploy site;

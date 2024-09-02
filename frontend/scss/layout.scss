@@ -69,13 +69,14 @@
 @import "./objects/applications";
 @import "./objects/callout";
 @import "./objects/color-mode";
+@import "./objects/theming";
 
 // Components
 @import "./components/header";
 @import "./components/footer";
 @import "./components/content";
 
-@import "settings/themes";
+@import "themes";
 
 // Trumps patchs
 // @import "./trumps/...";

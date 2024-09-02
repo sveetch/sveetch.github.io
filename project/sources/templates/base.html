@@ -7,8 +7,10 @@
     {% block body_header %}
     <nav class="navbar header-navbar">
         <a class="navbar-brand" href="{{ page_relative_position }}">
-            <img src="{{ STATIC_URL }}images/logo.full.svg" alt="Logo"
-                    height="70" class="d-inline-block align-text-top">
+            <img src="{{ STATIC_URL }}images/logo.light.full.svg" alt="Logo"
+                    height="70" class="show-for-light-theme">
+            <img src="{{ STATIC_URL }}images/logo.dark.full.svg" alt="Logo"
+                    height="70" class="show-for-dark-theme">
             <span class="visually-hidden">{{ page_title }}</span>
         </a>
 
