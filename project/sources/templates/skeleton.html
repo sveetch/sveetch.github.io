@@ -3,7 +3,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="follow, all">
 
     <title>{% block header_title %}{{ SITE.name }}{% endblock header_title %}</title>
 
@@ -11,7 +10,11 @@
         {% block metas_robot %}
             <meta name="robots" content="follow, all">
         {% endblock metas_robot %}
-        {% block metas_generic %}{% endblock metas_generic %}
+        {% block metas_generic %}
+            <meta name="author" content="David Thenon">
+            <meta name="generator" content="Optimus v{{ optimus_version }}">
+            <meta name="color-scheme" content="dark light">
+        {% endblock metas_generic %}
         {% block metas_og %}{% endblock metas_og %}
     {% endblock metas %}
 

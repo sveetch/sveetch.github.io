@@ -8,7 +8,7 @@ from webassets import Bundle
 DEBUG = True
 
 # Common site name and domain to use available in templates
-SITE_NAME = "Sveetch Github home"
+SITE_NAME = "Sveetch's Github portfolio"
 SITE_DOMAIN = "sveetch.github.io"
 
 # Repository root path is computed from current settings file

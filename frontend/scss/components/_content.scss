@@ -7,9 +7,4 @@
 .page-content {
     @include bb-flex(1, 0, auto, $max: false);
     padding: map-get($spacers, 3) map-get($spacers, 1);
-
-    h1 {
-        font-size: $h2-font-size;
-        font-weight: $font-weight-bold;
-    }
 }

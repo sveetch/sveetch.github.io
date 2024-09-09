@@ -64,7 +64,7 @@
             "pypi_url": "http://pypi.python.org/pypi/py-css-styleguide",
             "repository_url": "https://github.com/sveetch/py-css-styleguide",
             "documentation_url": "https://pycssstyleguide.readthedocs.io/",
-            "description": "Optimus is a static site builder, it produces HTML from templates with assets management and supports i18n for translations."
+            "description": "This is a Python library to build a design styleguide from a CSS manifest file."
         },
         {
             "name": "Optimus",
@@ -72,7 +72,15 @@
             "pypi_url": "https://pypi.python.org/pypi/Optimus",
             "repository_url": "https://github.com/sveetch/Optimus",
             "documentation_url": "https://optimus.readthedocs.io/",
-            "description": "This is a Python library to build a design styleguide from a CSS manifest file."
+            "description": "Optimus is a static site builder, it produces HTML from templates with assets management and supports i18n for translations."
+        },
+        {
+            "name": "Py Html Checker",
+            "logo": "images/registry/htmlchecker.svg",
+            "pypi_url": "http://pypi.python.org/pypi/py-html-checker",
+            "repository_url": "https://github.com/sveetch/py-html-checker",
+            "documentation_url": "https://py-html-checker.readthedocs.io/",
+            "description": "Optimus is a static site builder, it produces HTML from templates with assets management and supports i18n for translations."
         }
     ]
 }

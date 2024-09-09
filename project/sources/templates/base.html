@@ -1,6 +1,6 @@
 {% extends "skeleton.html" %}
 
-{% block header_title %}{{ page_title }}{% endblock header_title %}
+{% block header_title %}{{ super() }} - {{ page_title }}{% endblock header_title %}
 {% block body_attrs %} class="flex-column-layout"{% endblock body_attrs %}
 
 {% block body_container %}
