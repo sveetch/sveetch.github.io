@@ -6,7 +6,7 @@
             "pypi_url": null,
             "repository_url": "https://github.com/sveetch/cookiecutter-bireli",
             "documentation_url": "https://cookiecutter-bireli.readthedocs.io/",
-            "description": "Bireli is a Django project template with Cookiecutter to produce a ready to start project."
+            "description": "Bireli is a Cookiecutter template for bootstrapping a Django project."
         },
         {
             "name": "Cookiecutter for Django application",
@@ -40,7 +40,7 @@
             "pypi_url": "https://pypi.python.org/pypi/diskette",
             "repository_url": "https://github.com/emencia/diskette",
             "documentation_url": "https://diskette.readthedocs.io/",
-            "description": "Export and import Django application datas and medias."
+            "description": "Export and import Django application data and media."
         },
         {
             "name": "Django Blog Lotus",
@@ -56,7 +56,7 @@
             "pypi_url": "https://pypi.python.org/pypi/cmsplugin-blocks",
             "repository_url": "https://github.com/emencia/cmsplugin-blocks",
             "documentation_url": "https://cmspluginblocks.readthedocs.io/",
-            "description": "A set of DjangoCMS plugins for structured contents in CMS pages."
+            "description": "A set of DjangoCMS plugins for structured content in CMS pages."
         },
         {
             "name": "PyCssStyleguide",
@@ -81,6 +81,14 @@
             "repository_url": "https://github.com/sveetch/py-html-checker",
             "documentation_url": "https://py-html-checker.readthedocs.io/",
             "description": "Optimus is a static site builder, it produces HTML from templates with assets management and supports i18n for translations."
+        },
+        {
+            "name": "Django smart media",
+            "logo": "images/registry/smart-media.svg",
+            "pypi_url": "https://pypi.python.org/pypi/django-smart-media",
+            "repository_url": "https://github.com/sveetch/django-smart-media",
+            "documentation_url": "https://django-smart-media.readthedocs.io/",
+            "description": "A suit of tools to use a FileField to upload image with light SVG support."
         }
     ]
 }
