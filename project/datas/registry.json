@@ -75,6 +75,14 @@
             "description": "Optimus is a static site builder, it produces HTML from templates with assets management and supports i18n for translations."
         },
         {
+            "name": "Django smart media",
+            "logo": "images/registry/smart-media.svg",
+            "pypi_url": "https://pypi.python.org/pypi/django-smart-media",
+            "repository_url": "https://github.com/sveetch/django-smart-media",
+            "documentation_url": "https://django-smart-media.readthedocs.io/",
+            "description": "A suit of tools to use a FileField to upload image with light SVG support."
+        },
+        {
             "name": "Py Html Checker",
             "logo": "images/registry/htmlchecker.svg",
             "pypi_url": "http://pypi.python.org/pypi/py-html-checker",
@@ -83,12 +91,12 @@
             "description": "Optimus is a static site builder, it produces HTML from templates with assets management and supports i18n for translations."
         },
         {
-            "name": "Django smart media",
-            "logo": "images/registry/smart-media.svg",
-            "pypi_url": "https://pypi.python.org/pypi/django-smart-media",
-            "repository_url": "https://github.com/sveetch/django-smart-media",
-            "documentation_url": "https://django-smart-media.readthedocs.io/",
-            "description": "A suit of tools to use a FileField to upload image with light SVG support."
+            "name": "Dependency comb",
+            "logo": "images/registry/comb.svg",
+            "pypi_url": "https://pypi.python.org/pypi/dependency-comb",
+            "repository_url": "https://github.com/sveetch/dependency-comb",
+            "documentation_url": "https://dependency-comb.readthedocs.io/",
+            "description": "Analyze Python requirements for lateness and activity."
         }
     ]
 }
