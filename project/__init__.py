@@ -1,3 +1,3 @@
 """
-Optimus project for optimus_bootstrap
+Optimus project for 'sveetch.github.io'
 """

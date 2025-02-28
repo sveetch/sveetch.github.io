@@ -88,7 +88,7 @@
             "pypi_url": "http://pypi.python.org/pypi/py-html-checker",
             "repository_url": "https://github.com/sveetch/py-html-checker",
             "documentation_url": "https://py-html-checker.readthedocs.io/",
-            "description": "Optimus is a static site builder, it produces HTML from templates with assets management and supports i18n for translations."
+            "description": "Python wrapper around library Nu Html Checker (v.Nu) to check document validation either from a list of pages or a Sitemap."
         },
         {
             "name": "Dependency comb",
@@ -97,6 +97,14 @@
             "repository_url": "https://github.com/sveetch/dependency-comb",
             "documentation_url": "https://dependency-comb.readthedocs.io/",
             "description": "Analyze Python requirements for lateness and activity."
+        },
+        {
+            "name": "Chicky",
+            "logo": "images/registry/chicky.svg",
+            "pypi_url": "https://pypi.python.org/pypi/chicky",
+            "repository_url": "https://github.com/sveetch/chicky",
+            "documentation_url": "https://chicky.readthedocs.io/",
+            "description": "Chicky is a tool to compute Blake2b checksums for files from a directory."
         }
     ]
 }

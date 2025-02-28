@@ -1,4 +1,6 @@
+import json
 from gettext import gettext as _
+from pathlib import Path
 
 from optimus import __version__
 from optimus.pages.views import PageTemplateView
@@ -35,7 +37,11 @@ class GenericPageView(PageTemplateView):
         """
         super().get_context()
 
+        repository_dir = Path(self.settings.REPOSITORY_DIR)
+        project_manifest = json.loads((repository_dir / "cookiebaked.json").read_text())
+
         self.context.update({
+            "project_version": project_manifest["version"],
             "optimus_version": __version__,
         })
         return self.context

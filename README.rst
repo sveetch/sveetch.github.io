@@ -66,9 +66,9 @@ Workflow
 --------
 
 * We are developing into master branch;
-* Once a release is finalized, with bump version from ``cookiebaked.json``;
+* Once a release is finalized, we bump version from ``cookiebaked.json``;
 * Add a release into changelog file;
-* Push to master;
+* Commit and push to master;
 * Switch into branch ``github-pages``;
 * Rebase the branch with master;
 * Build into production mode;

@@ -3,6 +3,13 @@
 Changelog
 =========
 
+Version 0.2.4 - 2025/02/28
+--------------------------
+
+* Added "Chicky" application;
+* Fixed wrong description for "Html Checker" application;
+
+
 Version 0.2.3 - 2024/11/04
 --------------------------
 
